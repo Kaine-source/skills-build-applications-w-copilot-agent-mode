@@ -29,8 +29,8 @@ SECRET_KEY = "django-insecure-0-*51*^oyf5alay6s3428f(jakt=*+fh5kk_27#&g%9t*q*g2!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# Allow all hosts
-ALLOWED_HOSTS = ['*']
+# Allow host access to codespace URL and localhost
+ALLOWED_HOSTS = ['shiny-robot-g66vq7p7j7wf9jq6-8000.app.github.dev', 'localhost']
 
 
 # Application definition
